@@ -1,0 +1,376 @@
+/* =========================
+   Base Styles
+========================= */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  color: #1f1f1f;
+  background-color: #f8f5ef;
+}
+
+img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* =========================
+   Reusable Layout
+========================= */
+
+.container {
+  width: min(90%, 1100px);
+  margin: 0 auto;
+}
+
+section {
+  padding: 4rem 0;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+  color: #132a3a;
+}
+
+h1 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.75rem;
+}
+
+p {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+/* =========================
+   Header
+========================= */
+
+.site-header {
+  background: linear-gradient(rgba(19, 42, 58, 0.7), rgba(19, 42, 58, 0.7)),
+    url("../images/Guangzhou.jpg") center / cover no-repeat;
+  color: #ffffff;
+  text-align: center;
+  padding: 5rem 0 4rem;
+}
+
+.site-header h1 {
+  color: #ffffff;
+}
+
+.subtitle {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1rem;
+  color: #f4f4f4;
+}
+
+/* =========================
+   Hero Section
+========================= */
+
+.hero-section {
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.hero-section p {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+/* =========================
+   About Section
+========================= */
+
+.about-section {
+  background-color: #f3ede3;
+}
+
+.about-section p {
+  max-width: 800px;
+}
+
+/* =========================
+   Food Section
+========================= */
+
+.food-section {
+  background-color: #ffffff;
+}
+
+.food-cards {
+  display: grid;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.food-card {
+  background-color: #f9f3ea;
+  padding: 1.5rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* =========================
+   Attractions Section
+========================= */
+
+.attractions-section {
+  background-color: #f3ede3;
+}
+
+.attractions-grid {
+  display: grid;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.attraction-card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+}
+
+.attraction-card img {
+  border-radius: 0;
+  height: 220px;
+  object-fit: cover;
+}
+
+.attraction-card h3,
+.attraction-card p {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.attraction-card h3 {
+  padding-top: 1.25rem;
+}
+
+.attraction-card p {
+  padding-bottom: 1.25rem;
+}
+
+/* =========================
+   Culture Section
+========================= */
+
+.culture-section {
+  background-color: #ffffff;
+}
+
+.culture-section p {
+  max-width: 800px;
+}
+
+/* =========================
+   Gallery Section
+========================= */
+.glide {
+  margin-top: 2rem;
+}
+
+.glide__slide img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.glide__arrows {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.25rem;
+}
+
+.glide__arrow {
+  border: none;
+  padding: 0.75rem 1.25rem;
+  border-radius: 999px;
+  cursor: pointer;
+  background-color: #132a3a;
+  color: #ffffff;
+  font-size: 0.95rem;
+}
+
+.chart-wrapper {
+  height: 320px;
+  background-color: #f9f3ea;
+  padding: 1rem;
+  margin-top: 1.5rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+}
+
+/* =========================
+   Map Section
+========================= */
+
+.map-section {
+  background-color: #ffffff;
+}
+
+#map {
+  width: 100%;
+  height: 350px;
+  margin-top: 1.5rem;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+}
+
+/* =========================
+   Travel Tips Section
+========================= */
+
+.travel-tips-section {
+  background-color: #f3ede3;
+}
+
+.tips-grid {
+  display: grid;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.tip-card {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* =========================
+   Stats Section
+========================= */
+
+.stats-section {
+  background-color: #ffffff;
+}
+
+/* =========================
+   Closing Section
+========================= */
+
+.closing-section {
+  background-color: #f3ede3;
+  text-align: center;
+}
+
+.closing-section p {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* =========================
+   Footer
+========================= */
+
+.site-footer {
+  background-color: #132a3a;
+  color: #ffffff;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.site-footer p {
+  color: #f2f2f2;
+  margin-bottom: 0.5rem;
+}
+
+/* =========================
+   Tablet and Up
+========================= */
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2.2rem;
+  }
+
+  .subtitle {
+    font-size: 1.1rem;
+  }
+
+  .food-cards,
+  .tips-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .attractions-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .glide__slide img {
+    height: 500px;
+  }
+
+  .chart-wrapper {
+    height: 380px;
+  }
+
+  #map {
+    height: 450px;
+  }
+}
+
+/* =========================
+   Desktop and Up
+========================= */
+
+@media (min-width: 1024px) {
+  section {
+    padding: 5rem 0;
+  }
+
+  .site-header {
+    padding: 7rem 0 6rem;
+  }
+
+  .hero-section p,
+  .about-section p,
+  .culture-section p,
+  .closing-section p {
+    font-size: 1.05rem;
+  }
+}

@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A Local's Guide to Guangzhou</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <h1>A Local's Guide to Guangzhou</h1>
+        <p class="subtitle">
+          Discover the food, culture, and city life of Guangzhou through a local
+          perspective.
+        </p>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section id="hero" class="hero-section" data-aos="fade-up">
+        <div class="container">
+          <h2>Welcome to Guangzhou</h2>
+          <p>
+            Guangzhou is one of the most vibrant cities in southern China. It is
+            a place where traditional Cantonese culture meets modern urban life.
+            From famous dim sum and street food to historic architecture and a
+            dynamic skyline, Guangzhou offers visitors a rich and memorable
+            travel experience.
+          </p>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="about-section" data-aos="fade-up">
+        <div class="container">
+          <h2>Why Guangzhou?</h2>
+          <p>
+            Guangzhou is known for its welcoming atmosphere, diverse cuisine,
+            and strong cultural identity. As one of China’s major cities, it
+            combines rapid development with deep-rooted traditions. Visitors can
+            explore modern landmarks, experience authentic Cantonese culture,
+            and enjoy the everyday rhythm of local life. The city offers a
+            unique balance between history and innovation.
+          </p>
+        </div>
+      </section>
+
+      <!-- Food Section -->
+      <section id="food" class="food-section" data-aos="fade-up">
+        <div class="container">
+          <h2>A City of Food</h2>
+          <p>
+            Guangzhou is widely regarded as one of the best food cities in
+            China. Cantonese cuisine is known for its fresh ingredients,
+            balanced flavors, and wide variety of dishes. One of the most iconic
+            traditions is yum cha, where people gather to enjoy tea alongside a
+            selection of dim sum. Food in Guangzhou is not only essential but
+            also a central part of social life and cultural identity.
+          </p>
+
+          <div class="food-cards">
+            <article class="food-card">
+              <h3>Dim Sum</h3>
+              <p>
+                Dim sum is a signature of Cantonese cuisine. Popular dishes
+                include shrimp dumplings, siu mai, steamed buns, and rice noodle
+                rolls. Visiting a local tea house for dim sum is an essential
+                experience in Guangzhou.
+              </p>
+            </article>
+
+            <article class="food-card">
+              <h3>Char Siu</h3>
+              <p>
+                Char siu, or Cantonese barbecue pork, is known for its rich,
+                sweet, and savory flavor. It is commonly served with rice or
+                noodles and remains a staple in everyday meals.
+              </p>
+            </article>
+
+            <article class="food-card">
+              <h3>Wonton Noodles</h3>
+              <p>
+                Wonton noodles are a classic comfort dish featuring delicate
+                dumplings, springy noodles, and a light, flavorful broth. It
+                reflects the simplicity and refinement of Cantonese cooking.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Attractions Section -->
+      <section id="attractions" class="attractions-section" data-aos="fade-up">
+        <div class="container">
+          <h2>Places to Visit</h2>
+
+          <div class="attractions-grid">
+            <article class="attraction-card">
+              <img
+                src="./assets/images/Canton Tower.jpg"
+                alt="Canton Tower in Guangzhou"
+              />
+              <h3>Canton Tower</h3>
+              <p>
+                Canton Tower is one of the most iconic landmarks in Guangzhou.
+                Its modern structure and colorful lighting make it especially
+                striking at night. Visitors can enjoy panoramic views of the
+                city and experience the energy of Guangzhou’s skyline.
+              </p>
+            </article>
+
+            <article class="attraction-card">
+              <img
+                src="./assets/images/Shamian Island.jpeg"
+                alt="Street view of Shamian Island in Guangzhou"
+              />
+              <h3>Shamian Island</h3>
+              <p>
+                Shamian Island offers a quieter and more historic environment.
+                With tree-lined streets and European-style architecture, it is
+                ideal for walking, photography, and experiencing a different
+                side of the city's history.
+              </p>
+            </article>
+
+            <article class="attraction-card">
+              <img
+                src="./assets/images/Chen Clan Ancestral Hall.jpg"
+                alt="Chen Clan Ancestral Hall in Guangzhou"
+              />
+              <h3>Chen Clan Ancestral Hall</h3>
+              <p>
+                The Chen Clan Ancestral Hall showcases traditional Cantonese
+                architecture and craftsmanship. Its detailed carvings,
+                decorative roofs, and cultural exhibits make it an important
+                destination for those interested in history and art.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Culture Section -->
+      <section id="culture" class="culture-section" data-aos="fade-up">
+        <div class="container">
+          <h2>Culture and Everyday Life</h2>
+          <p>
+            Guangzhou is deeply rooted in Cantonese culture. The local language,
+            culinary traditions, and social customs all contribute to the city’s
+            identity. At the same time, Guangzhou continues to grow as a modern
+            and international metropolis. This blend of tradition and progress
+            can be seen in its busy streets, local markets, and riverside views,
+            creating a dynamic and balanced urban experience.
+          </p>
+        </div>
+      </section>
+
+      <!-- Gallery Section -->
+      <section id="gallery" class="gallery-section" data-aos="fade-up">
+      <div class="container">
+          <h2>Gallery</h2>
+          <p>
+          From skyline views and historic architecture to vibrant food culture
+          and street life, Guangzhou presents a rich visual experience that
+          reflects both tradition and modernity.
+          </p>
+
+          <div class="glide">
+          <div class="glide__track" data-glide-el="track">
+              <div class="glide__slides">
+              <div class="glide__slide">
+                  <img src="./assets/images/Guangzhou Skyline Night.jpeg" alt="Guangzhou skyline at night" />
+              </div>
+              <div class="glide__slide">
+                  <img src="./assets/images/Traditional Cantonese Food.jpeg" alt="Traditional Cantonese food" />
+              </div>
+              <div class="glide__slide">
+                  <img src="./assets/images/Historic Street.jpg" alt="Historic street in Guangzhou" />
+              </div>
+              <div class="glide__slide">
+                  <img src="./assets/images/City Life.jpg" alt="City life in Guangzhou" />
+              </div>
+              </div>
+          </div>
+
+          <div class="glide__arrows" data-glide-el="controls">
+              <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+              Prev
+              </button>
+              <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+              Next
+              </button>
+          </div>
+          </div>
+      </div>
+      </section>
+
+      <!-- Map Section -->
+      <section id="map-section" class="map-section" data-aos="fade-up">
+        <div class="container">
+          <h2>Explore Guangzhou on the Map</h2>
+          <p>
+            These highlighted locations represent key destinations across the
+            city, offering a mix of cultural landmarks, historical sites, and
+            modern attractions.
+          </p>
+
+          <!-- Leaflet map will go here -->
+          <div id="map"></div>
+        </div>
+      </section>
+
+      <!-- Travel Tips Section -->
+      <section id="travel-tips" class="travel-tips-section" data-aos="fade-up">
+        <div class="container">
+          <h2>Travel Tips</h2>
+
+          <div class="tips-grid">
+            <article class="tip-card">
+              <h3>Best Time to Visit</h3>
+              <p>
+                The most comfortable time to visit Guangzhou is during autumn
+                and winter, when the weather is cooler and more suitable for
+                outdoor activities.
+              </p>
+            </article>
+
+            <article class="tip-card">
+              <h3>Getting Around</h3>
+              <p>
+                Guangzhou has an efficient public transportation system,
+                including metro lines, buses, and taxis, allowing visitors to
+                travel conveniently throughout the city.
+              </p>
+            </article>
+
+            <article class="tip-card">
+              <h3>What to Try</h3>
+              <p>
+                Visitors are encouraged to try dim sum, roasted meats, herbal
+                tea, and traditional Cantonese desserts to fully experience the
+                local cuisine.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Stats Section -->
+      <section id="stats" class="stats-section" data-aos="fade-up">
+        <div class="container">
+          <h2>Travel Overview</h2>
+          <p>
+            A quick overview of some of the most memorable parts of visiting
+            Guangzhou.
+          </p>
+
+          <!-- Chart.js canvas will go here -->
+          <div class="chart-wrapper">
+            <canvas id="travelChart"></canvas>
+          </div>
+        </div>
+      </section>
+
+      <!-- Closing Section -->
+      <section id="closing" class="closing-section" data-aos="fade-up">
+        <div class="container">
+          <h2>Discover the City</h2>
+          <p>
+            Guangzhou offers a unique travel experience shaped by its history,
+            culture, and modern development. Whether exploring iconic landmarks,
+            enjoying world-renowned cuisine, or experiencing daily life in the
+            city, Guangzhou leaves a lasting impression on its visitors.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>Designed and coded by Daisy Ye</p>
+        <p>Travel page inspired by Guangzhou</p>
+      </div>
+    </footer>
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/glide.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
